@@ -59,7 +59,7 @@ public class Autograder {
 
     private void sendPost(String toSend) throws Exception {
 
-      String url = "http://colab-sbx-220.oit.duke.edu:5000";
+      String url = "http://autograde.herokuapp.com";
       String urlParameters = toSend;
 
       URL obj = new URL(url);
