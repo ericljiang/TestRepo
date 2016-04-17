@@ -13,7 +13,7 @@ public class Autograder {
         
       Autograder a = new Autograder();
       String toSend = a.readFile(args[0]);
-      System.out.println(toSend);
+      //System.out.println(toSend);
       a.sendPost(toSend);
 
 
