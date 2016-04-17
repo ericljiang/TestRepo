@@ -97,7 +97,7 @@ public class Autograder {
       
       //print result
       System.out.println(response.toString());
-      if(response.equals("correct\n")){
+      if(response.toString().equals("correct\n")){
         System.exit(0);
       } else {
         System.exit(1);
