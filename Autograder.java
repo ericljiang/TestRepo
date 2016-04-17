@@ -97,9 +97,11 @@ public class Autograder {
       
       //print result
       System.out.println(response.toString());
-      if(response.toString().equals("correct\n")){
-        System.exit(0);
+      if(response.toString().equals("correct")){
+        System.out.println("All tests passed!");
+	System.exit(0);
       } else {
+	System.out.println("Test Failed");
         System.exit(1);
       }
 
