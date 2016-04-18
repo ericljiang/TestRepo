@@ -7,7 +7,7 @@ public class FizzBuzz {
       for(int i = 1; i <= num; i++ ){
           //TODO: FizzBuzz
           String out = i;
-          if (i % 5 == 0) {
+          if (i % 5 = 0) {
             out = "fizz";
           }
           if (i % 7 == 0) {
