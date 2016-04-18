@@ -9,6 +9,7 @@ public class FizzBuzz {
           String out = i;
           if (i % 5 = 0) {
             out = "fizz";
+            kutfktyf
           }
           if (i % 7 == 0) {
             out = "buzz";
