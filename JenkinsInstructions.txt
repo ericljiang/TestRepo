@@ -6,3 +6,14 @@ sudo docker pull registry.hub.docker.com/zaiste/jenkins
 sudo docker tag registry.hub.docker.com/zaiste/jenkins jenkins-image
 sudo docker run -d -p 49001:8080 -v $PWD/jenkins:/var/lib/jenkins -t jenkins-image
 
+Setup Jenkins Configuration (do this on your own instance, the following are examples):
+Replicate this (use your own repo): http://colab-sbx-220.oit.duke.edu:49001/job/fizzbuzz/configure
+Add jdk here (oracle login required): http://colab-sbx-220.oit.duke.edu:49001/configure
+
+Fork this repo: https://github.com/duke-compsci290-spring2016/TestRepo
+
+Setup Webhook (do this on your own repo):
+Go to Settings, Webhooks & Services
+Add Jenkins (Git plugin) service and put your instance link (e.g. http://colab-sbx-220.oit.duke.edu:49001/)
+
+Finish the code in FizzBuzz.java and when you push it will build and tell you if it is correct
