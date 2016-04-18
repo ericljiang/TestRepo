@@ -1,4 +1,4 @@
 # TestRepo
 
-test build hook
+See JenkinsInstructions.txt
 
