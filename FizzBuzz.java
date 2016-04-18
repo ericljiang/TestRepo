@@ -6,6 +6,13 @@ public class FizzBuzz {
       int num = Integer.parseInt(args[0]);
       for(int i = 1; i <= num; i++ ){
           //TODO: FizzBuzz
+          String out = i;
+          if (i % 5 == 0) {
+            out = "fizz";
+          }
+          if (i % 7 == 0) {
+            out = "buzz";
+          }
       } 
     }
   }
